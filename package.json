@@ -1,27 +1,24 @@
 {
-  "name": "theres-never-time",
-  "version": "1.0.0",
+  "name": " ",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.mjs",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "license": "",
+  "author": "",
   "scripts": {
-    "start": "node index.mjs",
-    "dev": "nodemon index.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jdwillemse/theres-never-time.git"
-  },
-  "author": "JD Willemse",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jdwillemse/theres-never-time/issues"
-  },
-  "homepage": "https://github.com/jdwillemse/theres-never-time#readme",
-  "dependencies": {
-    "colors": "^1.4.0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0"
   }
 }
