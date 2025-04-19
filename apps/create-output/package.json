@@ -23,7 +23,7 @@
     "cheerio": "^1.0.0-rc.12",
     "colors": "^1.4.0",
     "dotenv": "^16.4.5",
-    "javascript-time-ago": "^2.5.9",
+    "javascript-time-ago": "^2.5.10",
     "lodash": "^4.17.21",
     "marked": "^12.0.2",
     "mustache": "^4.2.0",
