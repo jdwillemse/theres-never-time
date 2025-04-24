@@ -43,7 +43,7 @@ export async function factConstructor(fact) {
         .mapValues('value')
         .value();
       const chartResponse = await fetch(
-        response.search_metadata.prettify_html_file,
+        response.search_metadata.prettify_html_file
       );
       // extract svg chart from page
       const body = await chartResponse.text();
@@ -53,9 +53,7 @@ export async function factConstructor(fact) {
       $('line-chart-directive svg')
         .attr('viewbox', `0 0 ${svgWidth} ${svgHeight}`)
         .attr('width', '100%');
-      const chart = cheerio
-        .html($('line-chart-directive'))
-        .replaceAll('\n', '');
+      const chart = $.html($('line-chart-directive')).replaceAll('\n', '');
 
       return marked.parse(Mustache.render(copy, { ...data, CHART: chart }));
     }

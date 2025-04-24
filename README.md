@@ -16,8 +16,8 @@ A local bash script retrieves the fact Gist and converts the HTML content into a
 
 Create a Gist file that will serve as the output for the html and one that will save the fact iteration. Here are two examples. The HTML output can have anything as starting text. The fact counter should start with `0` as content. Here are two examples:
 
-- https://gist.github.com/jdwillemse/8d3e2bbe443b3312e257d8a856caa29d
-- https://gist.github.com/jdwillemse/d401c5675c76d26e60dfb4ea0b985137
+- [printer output](https://gist.github.com/jdwillemse/f6a2ed5cf822d2067db381259f377ea4)
+- [counter](https://gist.github.com/jdwillemse/ba4d03f8077fe97ab5db287f43c3324c)
 
 #### Environment variables
 
