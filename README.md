@@ -8,16 +8,24 @@
 
 Generating printer output avoids local Node.js and software installations on limited or unstable hardware by using GitHub in the cloud. GitHub Workflows process the `facts.yaml` to create the output and post it to a dedicated Gist. To manage the selection of facts across stateless workflow runs, a separate Gist stores an incrementing counter that loops through the available facts.
 
-#### On the printer device
+#### On the device connected to the printer
 
 A local bash script retrieves the fact Gist and converts the HTML content into a PDF. This PDF is then sent to the printer. To automate this process, cron is used to schedule regular execution.
 
 ### Requirements
 
-Create a Gist file that will serve as the output for the html and one that will save the fact iteration. Here are two examples. The HTML output can have anything as starting text. The fact counter should start with `0` as content. Here are two examples:
+#### Gist files
 
-- [printer output](https://gist.github.com/jdwillemse/f6a2ed5cf822d2067db381259f377ea4)
+Create a Gist file that will serve as the output for the html and one that will save the fact iteration. Here are two examples. The HTML output can have anything as starting text, but the name must be `theres-never-time-printer-output.html`. The fact counter should start with `1` as content. Here are two examples:
+
+- [printer output](https://gist.github.com/jdwillemse/8d3e2bbe443b3312e257d8a856caa29d)
 - [counter](https://gist.github.com/jdwillemse/ba4d03f8077fe97ab5db287f43c3324c)
+
+#### Gist token
+
+The Github workflows need to be able to update the Gist files created in the previous step. For this a Personal Access Token is needed with `gist` permissions. The token only needs to be created once and it can be done [here](https://github.com/settings/tokens).
+
+The token then needs to pasted in an action secret (t/settings/secrets/actions) called `GIST_TOKEN`
 
 #### Environment variables
 
