@@ -23,7 +23,7 @@ Create a Gist file that will serve as the output for the html and one that will 
 
 #### Gist token
 
-The Github workflows need to be able to update the Gist files created in the previous step. For this a Personal Access Token is needed with `gist` permissions. The token only needs to be created once and it can be done [here](https://github.com/settings/tokens).
+The Github workflows need to be able to update the Gist files created in the previous step. For this a Personal Access Token is needed with `gist` permissions. The token only needs to be created once and it can be done [here](https://github.com/settings/tokens). Choose the option for the token to never expire or you will need to repeat this step when it does.
 
 The token then needs to pasted in an action secret (t/settings/secrets/actions) called `GIST_TOKEN`
 
