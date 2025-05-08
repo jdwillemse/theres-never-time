@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>There’s Never Time</title>
     <style>
       * {
@@ -13,7 +14,6 @@
       body {
         /* add an inch margin to avoid printer cut-off */
         margin: 10mm 25mm 0;
-        font-family: "Courier New", Monospace;
       }
       .wrap {
         width: 700px;
@@ -25,7 +25,7 @@
         height: auto;
       }
       header {
-        margin: 20px 0 20px;
+        margin: 20px 0 3rem;
         padding-top: 20px;
         text-align: center;
       }
@@ -55,40 +55,37 @@
       .center {
         text-align: center;
       }
-.content {
-	font-size: 17px;
-}
-
-
     </style>
   </head>
 
   <body>
     <div class="wrap">
       <header>
-        <pre class="bing-bong">= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-
+        {{title}}
+        <p>
+          = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+          = = = 
+        </p>
+        <pre class="bing-bong">
 ██████╗ ██╗███╗   ██╗ ██████╗     ██████╗  ██████╗ ███╗   ██╗ ██████╗ ██╗
 ██╔══██╗██║████╗  ██║██╔════╝     ██╔══██╗██╔═══██╗████╗  ██║██╔════╝ ██║
 ██████╔╝██║██╔██╗ ██║██║  ███╗    ██████╔╝██║   ██║██╔██╗ ██║██║  ███╗██║
 ██╔══██╗██║██║╚██╗██║██║   ██║    ██╔══██╗██║   ██║██║╚██╗██║██║   ██║╚═╝
 ██████╔╝██║██║ ╚████║╚██████╔╝    ██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝██╗
 ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝
-
-<strong>THE TIME IS NOW {{currentTime}}</strong>
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-</pre>
+</pre
+        >
+        <strong>THE TIME IS NOW {{currentTime}}</strong>
+        <p>
+          = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+          = = = = = = = = = = = = = = 
+        </p>
       </header>
-<div class="content">
       <div class="fun-fact">{{{completedFact}}}</div>
       {{#image}}
-      <br>
-      <img src="{{{image}}}" alt="">
+      <br />
+      <img src="{{{image}}}" alt="" />
       {{/image}}
-</div> <!-- .content -->
-    </div> <!-- .wrap -->
-  
-
-
-</body></html>
+    </div>
+  </body>
+</html>

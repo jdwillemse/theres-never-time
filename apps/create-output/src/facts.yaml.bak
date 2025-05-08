@@ -23,74 +23,67 @@
 
 
 
-# fact 1: Strange Symptoms 
+# fact 1: Viagra 
 - copy: |-
-    <div class="center"><strong>WOMEN ARE DISTRACTED BY MORE THAN JUST THE ODD HOT FLASH. 
-    OTHER SYMPTOMS INCLUDE:</strong>
-    </div>  
-    <br>
-     =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+    **ACCORDING TO GOODRX, THE CURRENT GENERIC PRICE FOR**  
     
-    **STRANGE** 
-    ☹ ITCHY EARS ☹ RECEDING GUMS ☹ TINNITUS ☹ COLD FLASHES ☹ BRAIN FOG ☹ CHANGE IN BODY ODOR ☹ TINGLING FINGERS ☹ DRY EYE
+    ⬛ **VIAGRA IS $2.00 PER DOSE** Erectile Dysfunction 
+
+    ⬜ **ZURZUVAE $15,900.00 PER 14-DAY COURSE** Postpartum Depression
     
-    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
-
-    **BIZARRE**
-    ☠ BURNING MOUTH SENSATION ☠ FROZEN SHOULDER ☠ TEETH CHILLS ☠ HISTAMINE INTOLERANCE ☠ CHARLIE HORSE ☠ ONE ITCHY NIPPLE
-
-    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
-
-    **DIABOLICAL**
-    ☢ ELECTRICAL SHOCKS ☢ MISSING OR REDUCTION IN CLITORIS ☢ LOWER JAW GROWTH ☢ VERTIGO
-
-
-    Got a good one for this list? Add it! 
-  image: https://www.muthagoose.art/hot/qr-code.png
     
-        
-# fact 2: Trends
+    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`  
+    
+    ⬛ AVERAGE MALE TIME LOST .............................. 5 ½ MINUTES  
+    
+    ⬜ AVERAGE FEMALE TIME LOST ............................. 3-6 MONTHS  
+    
+    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`  
+
+    
+# fact 2: EMTALA
 - copy: |-
-    <div class="center">What's trending on Google?</div>
+    <div class="center">What's more interesting according to Google?</div>
 
+    <br/>
     =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =    
-
+    
     <div class="center">
-    “MENOPAUSE" ⮜⮜ VS.⮞⮞⮞  “ERECTILE DYSFUNCTION"
+    “KIM KARDASHIAN”  ⮜⮜⮜ VS.⮞⮞⮞  “Federal Abortion Ban"
     </div>
     
     `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
     
     {{{CHART}}}
+    
+    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
 
     Results today:
-    - TOP Menopause
-    - BOTTOM Erectile Dysfunction
-
-    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
+    - Kim Kardashian: {{KIM KARDASHIAN}}
+    - Federal Abortion Ban: {{Federal Abortion Ban}}
     
-    <STRONG>AND YET ACCORDING TO CHATGPT THERE ARE 22 DISTINCT SOLUTIONS FOR ERECTILE DYSFUNCTION AND ONLY 6 FOR MENOPAUSE.</STRONG> 
+    Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.
 
     `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
 
   id: trends
   query:
-    q: MENOPAUSE, ERECTILE DYSFUNCTION
+    q: KIM KARDASHIAN, FEDERAL ABORTION BAN
     date: now 1-d
 
 
-# fact 3: Top r/Menopause
+# fact 4: Two X Chromosomes
 - copy: |-
-    THE TOP 3 POSTS ON THE MENOPAUSE SUBREDDIT IN THE LAST DAY ARE  
-  
+    THE TOP 3 POSTS ON TWOXCHROMOSOMES SUBREDDIT IN THE LAST DAY ARE  
+    
       
 
 
     {{{DATA}}}
   id: reddit
-  url: https://www.reddit.com/r/Menopause/top/.rss?t=day
+  url: https://www.reddit.com/r/TwoXChromosomes/top/.rss?t=day
 
-# fact 4: Householders
+# fact 5: Householders
 - copy: |-
     **THE CURRENT NUMBER OF HOUSEHOLDS TAKING CARE OF ONE OR MORE RELATIVES BY GENDER:**  
     <br/>    
@@ -109,7 +102,7 @@
     ![householder gender breakdown](https://fred.stlouisfed.org/graph/fredgraph.png?g=1ebuZ)
 
 
-# fact 5: Who You Gonna Call
+# fact 6: Who You Gonna Call
 - copy: |-
     **SCHOOLS CALL MOTHERS 1.4 TIMES MORE THAN FATHERS WHEN THERE IS AN ISSUE WITH THEIR STUDENT.**  
     
@@ -122,7 +115,7 @@
     EVEN WHEN FATHERS STATE THEY THE PARENT THE SCHOOL NEEDS TO CALL FIRST, MOTHERS STILL GET 26% OF THE CALLS.
   image: https://www.muthagoose.art/lusterwoo/whoyougonnacallchart.jpg
 
-# fact 6: Widow's Reward
+# fact 7: Widow's Reward
 - copy: |-
     UPWARDS OF 75&#65285; OF ALL CAREGIVERS ARE WOMEN.
 
@@ -151,16 +144,26 @@
     <br/>
     `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
 
-# fact 7: Menopause Subreddit
+# fact 8: First Date
 - copy: |-
-    THE TOP 3 POSTS ON MENOPAUSE SUBREDDIT IN THE LAST DAY ARE  
+    ARE WE DATING THE SAME GUY? IS A NETWORK OF OVER 150 FACEBOOK GROUPS WITH A TOTAL OF ROUGHLY 3 MILLION MEMBERS WHO SHARE IMAGES OF MEN THEY MATCHED WITH ON DATING NETWORKS TO INQUIRE ABOUT POTENTIAL DANGEROUS BEHAVIORS SUCH AS LIARS, CHEATERS, ABUSE, ANYONE WHO EXHIBITS ANY TYPE OF TOXIC OR DANGEROUS BEHAVIOR. THAT IS COMPLETELY VOLUNTEER RUN.  
 
-    {{{DATA}}}
-  id: reddit
-  url: https://www.reddit.com/r/menopause/new/.rss?t=hour
+    THIS IS A SAFE SPACE WHERE WOMEN CAN ASK FOR ADVICE AND RELATIONSHIP SUPPORT, AS WELL AS POST ANYTHING ELSE DATING RELATED THAT CAN HELP BRING US TOGETHER, KEEP US SAFE, OR HELP US HELP EACH OTHER.
+    <br/>
+    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`  
+    <br/>
+    **TIME RESEARCHING SOCIAL MEDIA PROFILES BEFORE GOING ON A PHYSICAL DATE WITH SOMEONE YOU MET ONLINE:** 
 
 
-# fact 8: Kim Kardashian vs Updated DEI Policies for Women
+    ⬛ *AVERAGE MALE* ................ *58 MINUTES*
+
+    ⬜ *AVERAGE FEMALE* .............. *71 MINUTES*
+    <br/>
+
+    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
+
+
+# fact 9: Kim Kardashian vs Updated DEI Policies for Women
 - copy: |-
     <div class="center">
     What's more interesting according to Google?
@@ -190,31 +193,36 @@
     date: now 1-d
 
 
-# fact 9: Medical Diagnosis
+# fact 10: Medical Diagnosis
 - copy: |-
-    <div class="center"><strong>⏱ AVERAGE TIME WASTED BEFORE DIAGNOSIS ⏱ 
-    2-5 YEARS ⏱</strong></div>
+    WOMEN, AS WELL AS LOW-INCOME PATIENTS, EXPERIENCED LONGER DELAYS IN DIAGNOSIS. THEY WERE MORE LIKELY THAN MEN TO SEE 10 OR MORE MONTHS PASS BETWEEN THEIR FIRST VISIT TO A DOCTOR AND DIAGNOSIS AND TO HAVE MADE MORE THAN FIVE VISITS TO A DOCTOR PRIOR TO DIAGNOSIS.
+    <br/>
+    `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
+    <br/>
+    ⬛ AVERAGE MALE TIME FOR DIAGNOSIS................... 4-5 YEARS
+
+    ⬜ AVERAGE FEMALE TIME FOR DIAGNOSIS................. 4-7 YEARS**
+    <br/>
+
+    ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀   
+
+    Female mice were largely excluded from both animal and human clinical trials because of the menstrual cycle. fluctuating hormone levels make data difficult to interpret, results more variable, and research more expensive. while males have the same sex steroid hormones, female hormone levels rise and fall.
+
+
+    ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ 
+
+    Women's pain complaints are often dismissed, not taken seriously or deemed “hysterical", an idea that dates back to 1900 BC in ancient Egypt . 
+
+
+    ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎
+
+
+    Researchers find it easier to study men and extrapolate the results to women rather than include women who may have variables such as being postmenopausal versus premenopausal or pregnant or postpartum which have had negative effects on drug dosing.
+
 
     `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
-            
-    It is estimated that up to 1 in 3 women may face misdiagnoses regarding menopause and its associated symptoms, often requiring between two and five medical appointments before a correct diagnosis is made.
 
-    ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀  ♀   
-
-    Despite women constituting 51% of the population, there remains a significant gap in research and data on how medical symptoms impact women differently from men. This disparity may explain why, of the 500 women surveyed, Higgs LLP documented over 90 symptoms inadequately diagnosed by healthcare professionals.
-
-    ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  ᐃ  
-
-    1 in 4 women reported being wrongfully prescribed pain medication in an attempt to manage their symptoms without addressing the underlying cause. Following closely behind, 1 in 5 women found themselves prescribed antidepressants or SSRIs as doctors overlooked the root cause of their condition. 
-
-
-    ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎   ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎  ✎
-
-    Women's pain complaints are often dismissed, not taken seriously or deemed “hysterical", is an idea that dates back to 1900 BC in ancient Egypt. 
-
-
-
-# fact 10: Exercise Hours
+# fact 11: Exercise Hours
 - copy: |-
     **⬤ AVAILABLE MALE HOURS TO EXERCISE 24 HOURS**
 
@@ -258,7 +266,7 @@
 
         `+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +`
 
-# fact 11: Kim Kardashian vs SB8
+# fact 13: Kim Kardashian vs SB8
 - copy: |-
     <div class="center">
     What's more interesting according to Google?
@@ -288,12 +296,14 @@
     date: now 1-d
 
 
-# fact 13: Medical Malpractice & Menopause
+# fact 14: Hysterechtomy
 - copy: |-
-    <div class="center"> HERE ARE SOME POSTS ON R/MEDICAL MALPRACTICE THAT HAVE "MENOPAUSE"</div>
+    <div class="center">
+     🔎 🔎 🔎 🔎 A QUICK SEARCH ON REDDIT FOR THE WORDS 🔍 🔍 🔍 🔍
 
-    {{{DATA}}}
-  id: reddit
-  url: https://rss.app/feeds/9Wp1FY8ZEP73nCQm.xml
-
-  
+     **“DOCTOR WON'T APPROVE HYSTERECTOMY”**
+     </div>
+     
+     {{{DATA}}}
+  id: reddit-title-only
+  url: https://www.reddit.com/search/.rss?q=doctor+won%27t+approve+hysterectomy+&type=link&cId=a2eb7335-6c14-47ef-8b51-2aeee6b6d815&iId=c8bc429d-bf62-468f-a2f0-9297dd842039
