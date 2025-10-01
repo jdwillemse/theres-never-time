@@ -23,7 +23,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Node setup
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
 
       - name: Clone fact-index gist repo
         run: |
